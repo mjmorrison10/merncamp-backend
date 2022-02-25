@@ -27,7 +27,8 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://merncamp-node.herokuapp.com/"],
+    // origin: ["http://localhost:3000"],
   })
 );
 
